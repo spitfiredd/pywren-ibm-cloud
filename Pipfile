@@ -1,0 +1,29 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+flake8 = "*"
+pylint = "*"
+ipython = "*"
+
+[packages]
+click = "*"
+ibm-cos-sdk = "*"
+pyyaml = "*"
+pika = "==0.13.1"
+enum34 = "*"
+glob2 = "*"
+tqdm = "*"
+tblib = "*"
+requests = "*"
+python-dateutil = "*"
+lxml = "*"
+pandas = "*"
+seaborn = "*"
+matplotlib = "*"
+pywren-ibm-cloud = {editable = true,path = "."}
+
+[requires]
+python_version = "3.7"
